@@ -1,0 +1,7 @@
+#springfox.documentation.swagger.v2.path: /api-docs
+#spring.jackson.date-format: com.jzfq.house.swagger.RFC3339DateFormat
+#spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
+
+spring:
+  profiles:
+    active: test

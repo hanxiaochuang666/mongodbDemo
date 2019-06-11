@@ -1,0 +1,16 @@
+server:
+  port: 9900
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/hanchuang
+  servlet:
+    multipart:
+      #是否支持批量上传
+      enabled: true
+      #上传文件最大为 100M
+      max-file-size: 100MB
+      #上传总数据大小 200M
+      max-request-size: 200MB
